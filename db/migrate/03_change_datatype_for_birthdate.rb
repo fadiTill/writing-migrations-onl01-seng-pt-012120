@@ -1,3 +1,3 @@
-lass  < ActiveRecord::Migration[5.2]
+lass ChangeDatatypeForBirthdate < ActiveRecord::Migration[5.2]
   def change
-change_column(table_name, column_name, type)
+change_column(students, column_name, type)
